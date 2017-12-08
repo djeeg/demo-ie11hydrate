@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig-base",
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "outDir": "./output/ts/tsconfig-browser-client/",
+    "isolatedModules": true,
+    "lib": ["ES2015.Core", "ES2015.Iterable", "ES6", "DOM"],
+    "typeRoots": [],
+    "types": ["node"]
+  },
+  "exclude": [
+    "src/browser/bundle",
+    "src/browser/server",
+    "node_modules",
+    "output"
+  ]
+}

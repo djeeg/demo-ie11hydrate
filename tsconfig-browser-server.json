@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig-base",
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "./output/ts/tsconfig-browser-server/"
+  },
+  "exclude": [
+    "src/browser/bundle",
+    "src/browser/client",
+    "node_modules",
+    "output"
+  ]
+}

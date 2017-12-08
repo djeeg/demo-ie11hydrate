@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig-base",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "outDir": "./output/ts/tsconfig/",
+    "sourceMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "src/browser/bundle",
+    "output"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
